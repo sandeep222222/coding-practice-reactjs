@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.appoinmant-app {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #171f46;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.button {
+  background-color: white;
+  padding: 0;
+
+  outline: none;
+  cursor: pointer;
+  color: #8b5cf6;
+  border: 1px solid #8b5cf6;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+.date {
+  color: #7e858e;
+  font-family: 'roboto';
+  font-size: 12px;
+  margin: 0px;
+}
